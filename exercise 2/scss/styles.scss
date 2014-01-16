@@ -440,13 +440,16 @@ DESCRIPTION: A premium business and portfolio theme.
 	.quicknav							
 	{
 		background:#FFFFFF;
-		background:url(../images/link_border.png) repeat-x;
+		.quicknav
+		{
+			background:url(../images/link_border.png) repeat-x;
+		}
 
 		.quicknavgrid_3						
 		{
 			max-width:200px;
 			margin:0px;
-			padding:20px 2.04% 0;
+			padding:20px 1.4% 0;
 			display:inline;
 			float:left;
 			position:relative;

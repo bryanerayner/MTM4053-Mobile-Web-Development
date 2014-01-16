@@ -352,12 +352,13 @@ a .title {
   color: #000000; }
 
 .quicknav {
-  background: #FFFFFF;
-  background: url(../images/link_border.png) repeat-x #ffffff; }
+  background: #FFFFFF; }
+  .quicknav .quicknav {
+    background: url(../images/link_border.png) repeat-x; }
   .quicknav .quicknavgrid_3 {
-    max-width: 204px;
+    max-width: 200px;
     margin: 0px;
-    padding: 20px 1.04% 0;
+    padding: 20px 1.4% 0;
     display: inline;
     float: left;
     position: relative;
