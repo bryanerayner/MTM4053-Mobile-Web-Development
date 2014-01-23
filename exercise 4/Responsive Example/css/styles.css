@@ -1,0 +1,94 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */ }
+
+body {
+  font: 90%/1.5 Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+  padding: 0 2%; }
+
+.main {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto; }
+
+h1, h2, h3 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: normal;
+  margin: 0 0 .5em; }
+
+h1 {
+  font-size: 2.6em; }
+
+h2 {
+  font-size: 2em; }
+
+h3 {
+  font-size: 1.6em; }
+
+p {
+  margin: 0 0 1em; }
+  p:first-of-type {
+    font-size: 1.4em;
+    font-style: italic; }
+
+a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none; }
+  a:hover {
+    color: black; }
+
+.col1, .col2 {
+  float: left;
+  margin: 0;
+  margin-left: 5%; }
+
+.col1 {
+  width: 54.3%; }
+
+.col2 {
+  width: 35.41%; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+.inline {
+  width: 45%;
+  float: right;
+  padding-left: 5%; }
+
+.media-container {
+  width: 100%;
+  height: 0;
+  /*Collapse this and use padding to control the content*/
+  padding-top: 25px;
+  position: relative; }
+  .media-container.r16x9 {
+    padding-bottom: 56.25%; }
+  .media-container.r4x3 {
+    padding-bottom: 75.00%; }
+  .media-container iframe.media-object {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute; }
+
+@media screen and (max-width: 800px) {
+  .col1, .col2 {
+    float: left;
+    width: 100%;
+    margin-left: 0;
+    padding: 0 5%; } }
+@media screen and (max-width: 550px) {
+  .inline {
+    float: none;
+    width: 100%; } }
+
+/*# sourceMappingURL=styles.css.map */
