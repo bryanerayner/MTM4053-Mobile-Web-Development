@@ -89,6 +89,9 @@ img {
 @media screen and (max-width: 550px) {
   .inline {
     float: none;
-    width: 100%; } }
+    width: 100%; }
+
+  h2 {
+    margin-top: 40px; } }
 
 /*# sourceMappingURL=styles.css.map */
